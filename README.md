@@ -1,5 +1,21 @@
 CRUD operations using spring boot with no backend database.
 
+How to download and execute without iDE help
+
+
+open cmd / Terminal
+
+git clone https://github.com/gkukkada/TestDeployment.git
+
+then run following commands
+
+cd TestDeployment
+mvn install
+mvn spring-boot:run
+
+
+TEST CASES:
+
 GET:
 http://localhost:8082/RestServices/user/
 
