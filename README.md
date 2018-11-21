@@ -5,14 +5,17 @@
 
 open cmd / Terminal
 
+```
 git clone https://github.com/gkukkada/TestDeployment.git
+```
 
 then run following commands
 
+```
 cd TestDeployment
 mvn install
 mvn spring-boot:run
-
+```
 
 ## TEST CASES:
 
