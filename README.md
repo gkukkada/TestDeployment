@@ -1,6 +1,6 @@
 # CRUD operations using spring boot with no backend database.
 
-## How to download and execute without iDE help
+## How to download and execute without IDE help
 
 
 open cmd / Terminal
