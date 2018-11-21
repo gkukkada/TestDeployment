@@ -1,6 +1,6 @@
-CRUD operations using spring boot with no backend database.
+# CRUD operations using spring boot with no backend database.
 
-How to download and execute without iDE help
+## How to download and execute without iDE help
 
 
 open cmd / Terminal
@@ -14,14 +14,14 @@ mvn install
 mvn spring-boot:run
 
 
-TEST CASES:
+## TEST CASES:
 
-GET:
+### GET:
 http://localhost:8082/RestServices/user/
 
 ![alt text](https://github.com/gkukkada/TestDeployment/blob/master/demo/GET.png)
 
-POST:
+### POST:
 http://localhost:8082/RestServices/user/
 
 body: 
@@ -33,7 +33,7 @@ body:
 
 ![alt text](https://github.com/gkukkada/TestDeployment/blob/master/demo/POST.png)
 
-PUT:
+### PUT:
 http://localhost:8082/RestServices/user/5
 
 
@@ -46,7 +46,7 @@ body:
 
 ![alt text](https://github.com/gkukkada/TestDeployment/blob/master/demo/PUT.png)
 
-DELETE:
+### DELETE:
 http://localhost:8082/RestServices/user/5
 
 ![alt text](https://github.com/gkukkada/TestDeployment/blob/master/demo/DELETE.png)
